@@ -12,7 +12,7 @@ loadLocal();
 
 const scriptRegex = /generate-([a-zA-Z\\-]+)\.ts/;
 
-const excludedScripts = ['pretty-manifest', 'font-glyph-enums'];
+const excludedScripts = ['pretty-manifest', 'font-glyph-enums', 'symbols'];
 
 // These scripts generate data needed by other scripts,
 // so they need to run first in this order
